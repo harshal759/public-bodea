@@ -9,7 +9,7 @@ const FEATURE_CARDS = [
     status: 'QUICK SCAN | LIVEUPDATE',
     statusClass: '',
     buttonLabel: 'START SCAN',
-    image: null,
+    image: `${BLOCK_PATH}/bodea-device-security.png`,
   },
   {
     id: 'id-theft',
@@ -41,7 +41,7 @@ const FEATURE_CARDS = [
     status: 'EXTENSION INSTALLED',
     statusClass: 'success',
     buttonLabel: 'OPEN VAULT',
-    image: `${BLOCK_PATH}/Bodea Password Manager.png`,
+    image: `${BLOCK_PATH}/Bodea-Password-Manager.png`,
   },
 ];
 
@@ -60,7 +60,7 @@ function createTrainingHeader(config) {
     <div class="bsav-training-header__inner">
       <img class="bsav-training-header__logo" src="${BLOCK_PATH}/Bodea_logo.png" alt="Bodea logo" height="40">
       <h4 class="bsav-training-header__title">Training Page</h4>
-      <a class="bsav-btn bsav-btn--outline-white" href="${websiteUrl}">Bodea Website</a>
+      <a class="bsav-btn bsav-btn--primary" href="${websiteUrl}">Bodea Website</a>
     </div>
   `;
   return header;
