@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p35437-e2207568.adobeaemcloud.com/bin/franklin.delivery/bhavani-seleri/public-bodea/main"
+    url: "https://author-p35437-e2207568.adobeaemcloud.com/bin/franklin.delivery/harshal759/public-bodea/main"
     type: "markup"
     suffix: ".html"
