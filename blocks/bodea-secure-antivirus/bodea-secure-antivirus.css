@@ -48,7 +48,7 @@
    ============================================================ */
 .bsav-layout {
   display: flex;
-  min-height: 600px;
+  min-height: 100vh;
 }
 
 /* ============================================================
@@ -115,10 +115,6 @@
 .bsav-sidebar__nav-item--active a {
   color: #fff;
   font-weight: 600;
-}
-
-.bsav-sidebar__complete-btn {
-  margin-top: auto;
 }
 
 /* ============================================================
@@ -625,6 +621,7 @@ a.bsav-btn::after {
 @media (width < 900px) {
   .bsav-layout {
     flex-direction: column;
+    min-height: 600px;
   }
 
   .bsav-sidebar {
@@ -634,6 +631,18 @@ a.bsav-btn::after {
     flex-wrap: wrap;
     padding: 20px;
     gap: 16px;
+  }
+  
+  .bsav-training-header__inner {
+    justify-content: center;
+  }
+
+  .bsav-training-header__title {
+    display: none;
+  }
+
+  .bsav-training-header__title + .bsav-btn {
+    display: none;
   }
 
   .bsav-sidebar__complete-btn {
