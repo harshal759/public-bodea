@@ -40,10 +40,6 @@ body.bodea-theme main {
   }
 }
 
-body.bodea-theme main > .section:not([data-sec-full-width="true"]) {
-  max-width: none;
-  /* width: 100%; */
-}
 body.bodea-theme main  > .section.bg-dark > div {
     max-width: 1200px !important;
     margin: auto !important;
