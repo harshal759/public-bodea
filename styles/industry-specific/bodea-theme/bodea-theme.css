@@ -234,7 +234,7 @@ display: none;
     
 
     body.bodea-theme main .bodea-banner .hero picture img {
-        height: 450px;
+        height: auto;
     }
 
     body.bodea-theme main .bodea-banner h1 {
@@ -1071,6 +1071,10 @@ body.bodea-theme main .sign-in .sign-in-links .create-account-link {
   text-transform: unset;
   text-decoration: underline;
 }
+body.bodea-theme main .sign-in .sign-in-links .create-account-link:hover{
+  color:#2874F0;
+  box-shadow:none;
+}
 body.bodea-theme main .sign-in .sign-in-divider {
   display: none;
 }
@@ -1729,7 +1733,8 @@ body.bodea-theme main .section.bodea-article-content .button {
 body.bodea-theme main .section.bodea-article-content .button::after {
   content: unset;
 }
-body.bodea-theme main .section.bodea-article-content .button:hover {
+body.bodea-theme main .section.bodea-article-content .button:hover,
+body.bodea-theme main .section.bodea-article-content .button:focus {
   background-color: #e6e6e6;
   color: #222;
   text-decoration: unset;
